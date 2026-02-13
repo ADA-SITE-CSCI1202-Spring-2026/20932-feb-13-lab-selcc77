@@ -1,13 +1,14 @@
+package week03.invoice;
 // package week03.invoice;
 
-public class Invoice {
+public class invoice {
 
     private String partNumber;
     private String partDescription;
     private int quantity;
     private double pricePerItem;
 
-    public Invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
+    public invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
         this.partNumber = partNumber;
         this.partDescription = partDescription;
 

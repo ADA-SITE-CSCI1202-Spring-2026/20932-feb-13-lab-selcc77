@@ -1,7 +1,10 @@
+package week03.invoice;
+
 public class InvoiceTest {
+
     public static void main(String[] args) {
 
-        Invoice invoice = new Invoice("A123", "USB Keyboard", 3, 25.50);
+        invoice invoice = new invoice("A123", "USB Keyboard", 3, 25.50);
 
         System.out.println("Part Number: " + invoice.getPartNumber());
         System.out.println("Description: " + invoice.getPartDescription());
